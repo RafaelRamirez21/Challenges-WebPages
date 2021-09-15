@@ -1,0 +1,12 @@
+@import 'global';
+.section__challenges{
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title__challenges{
+text-align: center;
+font-family: $fontMain;
+}
