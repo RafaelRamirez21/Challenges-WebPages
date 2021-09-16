@@ -153,10 +153,13 @@ function Dataprovider({ children }) {
     "title": "Toast Notification",
     "src": "https://day-30-toast-notification.netlify.app/"
   }];
+  const [searchValue, setSearchValue] = React.useState('');
   return (
-    <DataContext.Provider value={
-      dataInitial
-    }>
+    <DataContext.Provider value={{
+      dataInitial,
+      searchValue,
+      setSearchValue
+    }}>
       {children}
     </DataContext.Provider >
   )

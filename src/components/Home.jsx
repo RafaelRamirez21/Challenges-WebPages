@@ -6,6 +6,7 @@ function Homes() {
   let array = []
   return (
     <>
+
       <section className="homepages">
 
         <h1 ><span className='blue'>J</span>

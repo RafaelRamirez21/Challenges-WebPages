@@ -4,12 +4,13 @@ import { DataContext } from '../Context';
 import CardChallenge from './CardChallenge';
 
 function Challenges() {
-  const dataInitial = useContext(DataContext);
+  const { dataInitial, searchValue } = useContext(DataContext);
 
   return (
     <>
       <h2 className="title__challenges">Challenges gallery</h2>
       <section className="section__challenges">
+        {/* {searchValue ? console.log('working') : console.log('no workin')} */}
         {dataInitial.map((item, index) => <CardChallenge
           key={index}
           item={item}

@@ -17,7 +17,7 @@
     margin-left:5px ;
 
   }
-  border-radius: 25px;
+  border-radius: 7px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 .anchor{
@@ -26,6 +26,7 @@
 .title__items{
 text-align: center;
 font-family: $fontMain;
+
 }
 .card__frame--item{
   width: 100%;
@@ -42,9 +43,11 @@ font-family: $fontMain;
   width: 80px;
   height: 30px;
   margin-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 7px;
   border:1px solid rgba(197, 192, 192, 0.233);
   cursor: pointer;
+  background-color: #1a73e8;
+  color: white;
   &:hover{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;

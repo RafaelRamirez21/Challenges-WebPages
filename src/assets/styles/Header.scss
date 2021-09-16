@@ -1,0 +1,33 @@
+@import 'global';
+header{
+  display: flex;
+  justify-content: flex-end;
+  & button{
+    display: block;
+    background-color: #1a73e8;
+    color: white;
+    font-family:$fontMain ;
+    margin: 5px;
+    border: 1px solid transparent; 
+    padding: 3px;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+
+    cursor: pointer;
+    
+  }
+
+}
+.anchor-p:hover{
+background: none;
+}
+.img__profile{
+  display: block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: 1px solid white;
+}
